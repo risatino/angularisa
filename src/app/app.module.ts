@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ComponentRisaComponent } from './component-risa/component-risa.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComponentRisaComponent
   ],
   imports: [
     BrowserModule,
